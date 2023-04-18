@@ -1,0 +1,383 @@
+@import url(common.css);
+
+body {
+  background: var(--background-g);
+}
+a {
+  color: var(--primary-n);
+}
+section {
+  color: var(--primary-n);
+  margin-bottom: 27px;
+  position: relative;
+}
+section h3 {
+  margin-bottom: 12px;
+}
+#bookmark-menu {
+  margin-top: 80px;
+}
+#bookmark-menu h2 {
+  margin-bottom: 17px;
+  font-weight: 700;
+}
+#bookmark-menu h2 i {
+  margin-right: 11px;
+}
+#bookmark-menu .bookmark-list li {
+  margin: 0 15px;
+}
+#bookmark-menu .bookmark-list li:first-child {
+  margin-left: 0;
+}
+#bookmark-menu .bookmark-list li:last-child {
+  margin-right: 0;
+}
+#bookmark-menu .bookmark-list .bookmark-item {
+  width: 200px;
+  height: 135px;
+  border-radius: 20px;
+  background: var(--background-w);
+  text-align: center;
+}
+#bookmark-menu .bookmark-list .bookmark-item:hover,
+#course-data .doughnut-wrap:hover,
+#click-data .chart-div2:hover,
+#calendar:hover{
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.25); 
+}
+#newcourse .newcourse-item:hover{
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25); 
+}
+#bookmark-menu .bookmark-list .bookmark-item i {
+  font-size: 48px;
+  margin-bottom: 15px;
+  position: relative;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+#bookmark-menu .bookmark-list .bookmark-item:hover i.fa-school {
+  color: var(--highlight-s);
+}
+#bookmark-menu .bookmark-list .bookmark-item:hover i.fa-list-check {
+  color: #3c90c7;
+}
+#bookmark-menu .bookmark-list .bookmark-item:hover i.fa-bullhorn {
+  color: var(--primary-r);
+}
+#bookmark-menu .bookmark-list .bookmark-item:hover i.fa-ticket {
+  color: var(--highlight-m);
+}
+#bookmark-menu .bookmark-list .bookmark-item:hover i.category-add {
+  color: #9747ff;
+}
+#bookmark-menu .bookmark-list .bookmark-item:hover i.lecture-add {
+  color: #000;
+}
+#bookmark-menu .bookmark-list .bookmark-item i.ticket-add:after,
+#bookmark-menu .bookmark-list .bookmark-item i.notice-add:after,
+#bookmark-menu .bookmark-list .bookmark-item i.category-add:after,
+#bookmark-menu .bookmark-list .bookmark-item i.lecture-add:after  {
+  position: absolute;
+  bottom: -7px;
+  right: 60px;
+  content: "+";
+  display: block;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  font-size: 20px;
+  text-align: center;
+  line-height: 22px;
+  color: var(--background-w);
+  background: var(--highlight-s);
+}
+#bookmark-menu .bookmark-list .bookmark-item span {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--typography);
+}
+
+.dashboard-data {
+  margin-bottom: 27px;
+}
+
+#course-data {
+  margin-right: 35px;
+}
+
+#course-data span > a,
+#click-data span > a,
+#newcourse span > a,
+#calendar-data span > a {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: 700;
+  color: #7a7a7a;
+}
+
+#newcourse {
+  margin-right: 34px;
+}
+#newcourse ul {
+  width: 820px;
+}
+#newcourse .newcourse-item {
+  display: block;
+  width: 100%;
+  height: 70px;
+  line-height: 70px;
+  border-radius: 10px;
+  background: var(--background-w);
+  padding-left: 30px;
+  margin-bottom: 19px;
+  color: #525252;
+}
+#newcourse .newcourse-item:last-child {
+  margin-bottom: 0;
+}
+/* 달력 */
+#calendar {
+  width: 493px;
+  height: 337px;
+  padding: 25px 25px 20px;
+  background: var(--highlight-s);
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+.cld-main {
+  position: relative;
+  box-sizing: border-box;
+  height: 292px;
+}
+.cld-main a {
+  color: #333;
+  font-weight: bold;
+}
+.cld-datetime {
+  margin: auto;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.cld-datetime .today {
+  margin: auto;
+  text-align: center;
+  color: var(--background-w);
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 700;
+}
+.cld-nav {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.cld-nav svg {
+  fill: var(--background-w);
+}
+.cld-nav:hover {
+  cursor: pointer;
+}
+.cld-nav:hover svg {
+  fill: #666;
+}
+.cld-rwd {
+  left: 0;
+  height: 36px;
+}
+.cld-fwd {
+  height: 36px;
+  right: 0;
+}
+.cld-label:not(:last-of-type) {
+  margin-right: 22px;
+}
+.cld-day:not(:nth-of-type(7n)) {
+  margin-right: 22px;
+  margin-bottom: 7px;
+}
+.cld-day:nth-last-of-type(-n + 7) {
+  margin-bottom: 0;
+}
+.cld-labels {
+  margin-bottom: 10px;
+}
+.cld-labels,
+.cld-days {
+  padding-left: 0;
+  text-align: center;
+}
+.cld-label,
+.cld-day {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+.cld-label {
+  color: var(--typography);
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  height: 18px;
+}
+.cld-days {
+  width: 342px;
+  margin: auto;
+}
+.cld-day.today .cld-number {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background: var(--primary-n);
+}
+.cld-day.disableDay {
+  opacity: 0.5;
+}
+.cld-day.nextMonth,
+.cld-day.prevMonth {
+  opacity: 0.33;
+}
+.cld-number {
+  position: relative;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 30px;
+}
+.cld-title {
+  position: absolute;
+  z-index: 5;
+  display: none;
+  top: 30px;
+  left: 0;
+  padding: 5px 10px;
+  background: #fff;
+  white-space: nowrap;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 12px;
+}
+.cld-number:hover .cld-title {
+  display: block;
+}
+.cld-title::before {
+  content: "";
+  position: absolute;
+  top: -7.5px;
+  left: 7.5px;
+  width: 0;
+  height: 0;
+  border-left: 7.5px solid transparent;
+  border-right: 7.5px solid transparent;
+  border-bottom: 7.5px solid #ccc;
+}
+.cld-number.eventday {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 1px solid #999;
+}
+.cld-number.eventday:hover {
+  cursor: pointer;
+  background: #eee;
+}
+.today .cld-number.eventday:hover {
+  background: #888;
+}
+
+.cld-day:nth-of-type(n + 43) {
+  display: none;
+}
+
+/* CHART */
+
+#course-data .doughnut-wrap {
+  width: 606px;
+  height: 312px;
+  border-radius: 20px;
+  background: var(--background-w);
+  position: relative;
+}
+#click-data > div {
+  width: 706px;
+  height: 312px;
+  border-radius: 20px;
+  background: var(--background-w);
+}
+
+#myChart,
+#legend-div {
+  font-family: "Pretendard", sans-serif;
+  font-weight: 400;
+}
+.chart-div {
+  position: relative;
+  height: 100%;
+}
+#myChart {
+  padding: 20px 50px 50px 70px;
+  /* height: 312px;  */
+}
+#DoughnutChart {
+  width: 80% !important;
+  height: 80% !important;
+  position: relative;
+  top: 10%;
+  right: 5%;
+
+}
+.chart-div .legend-div {
+  position: absolute;
+  top: 62px;
+  left: 320px;
+}
+#course-data .legend-div ul {
+  transform: translateX(60%);
+}
+.chart-div .legend-div ul li {
+  list-style: none;
+  margin: 10px 0;
+  color: #161616;
+  font-size: 20px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+}
+
+.chart-div .legend-div ul li span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 10px;
+  vertical-align: middle;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  line-height: 27px;
+}
+#bookmark-menu .bookmark_empty {
+  font-size: 24px;
+  margin-left: 50px;
+  line-height: 120px;
+  height: 135px;
+  border-radius: 20px;
+  text-align: center;
+  margin-left: 10px;
+}
+
+#newcourse .lecture_empty {
+  display: block;
+  height: 337px;
+  text-align: center;
+  line-height: 330px;
+  color: #aaa;
+  background: var(--background-w);
+  font-size: 20px;
+}
