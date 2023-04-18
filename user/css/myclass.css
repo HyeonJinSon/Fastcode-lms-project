@@ -1,0 +1,218 @@
+::selection {
+  background: var(--highlight-m);
+  color: #fff;
+}
+.class_banner {
+  background: var(--primary-n);
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  padding: 145px 125px 40px 100px;
+}
+.class_banner .count_container div {
+  font-size: 16px;
+  color: var(--background-g);
+  font-weight: 600;
+  white-space: nowrap;
+}
+.class_banner .count_container span {
+  color: #fff;
+  font-size: 40px;
+  margin-left: 30px;
+}
+.class_banner .count_container {
+  gap: 50px;
+}
+.class_title {
+  gap: 35px;
+  padding-right: 50px;
+  margin-bottom: 40px;
+}
+.class_title h2 a {
+  color: #fff;
+  transition: color 0.15s;
+  white-space: nowrap;
+}
+.class_title h2:hover a {
+  color: var(--highlight-c);
+}
+.class_profile {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.class_profile img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.class_content aside h2 {
+  text-align: center;
+  margin: 54px 0 36px;
+}
+.class_content aside h2 a {
+  padding: 6px 24px;
+  background: var(--highlight-s);
+  border-radius: 15px;
+  font-weight: 600;
+  color: #fff;
+  transition: background 0.15s;
+}
+.class_content aside h2:hover a {
+  background: var(--primary-r);
+}
+.class_content aside .class_nav {
+  border-radius: 20px;
+  border: 2px solid var(--background-g);
+  background: #fff;
+  padding: 36px 70px 36px 50px;
+}
+.class_content aside .class_nav li + li {
+  margin-top: 33px;
+}
+.class_content aside .class_nav li a {
+  font-size: 16px;
+  font-weight: 600;
+  transition: color 0.15s;
+}
+.class_content aside .class_nav li:hover a {
+  color: var(--highlight-s);
+}
+.myLec_wrapper {
+  margin: 110px 0 270px;
+  padding: 0 40px;
+}
+.myLec {
+  width: 300px;
+  height: 361px;
+  border-radius: 50px;
+  position: relative;
+}
+.myLec_img {
+  border-radius: 50px;
+  width: 300px;
+  height: 227px;
+  z-index: -1;
+  overflow: hidden;
+}
+.myLec_img img {
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.myLec_info {
+  border-radius: 50px;
+  z-index: 30;
+  background: #fff;
+  border: 2px solid var(--background-g);
+  transition: 0.3s;
+  width: 300px;
+  height: 197px;
+  margin-top: -83px;
+  padding: 26px 34px 52px 44px;
+  flex-direction: column;
+  gap: 50px;
+  position: relative;
+}
+.myLec_info h3 {
+  font-weight: 600;
+  color: var(--primary-n);
+}
+.myLec_go_btn {
+  display: inline-block;
+  padding: 17px 18px;
+  background: rgba(168, 218, 216, 0.65);
+  border-radius: 50%;
+  transition: 0.3s;
+}
+.myLec_go_btn i {
+  color: var(--primary-n);
+  transition: 0.3s;
+}
+.myLec:hover .myLec_info {
+  background: var(--highlight-m);
+}
+.myLec:hover .myLec_go_btn {
+  background: #fff;
+}
+.myLec:hover .myLec_go_btn i {
+  color: var(--highlight-c);
+}
+.impending:before,
+.impending:after,
+.finish:before,
+.finish:after {
+  position: absolute;
+  left: -1px;
+  right: -1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 31;
+  border-radius: 50px;
+  pointer-events: none;
+}
+.impending:before {
+  content:'만료가 임박했어요 !';
+  top: -23px;
+  color: var(--highlight-s);
+  font-size: 16px;
+  font-weight: 700;
+}
+.impending:after {
+  content: "";
+  top: 0;
+  bottom: 22px;
+  background: rgba(168, 218, 216, 0.05);
+  border: 15px solid rgba(168, 218, 216, 0.9);
+}
+.finish:after {
+  content: "수강 완료";
+  top: 0;
+  bottom: 22px;
+  background: rgba(69, 123, 157, 0.8);
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+}
+.myLec_container {
+  gap: 54px 40px;
+}
+.lec_empty {
+  width: 100%;
+  line-height: 40px;
+  padding: 40px 0;
+}
+.lec_empty > p {
+  position: relative;
+  z-index: 1;
+}
+.lec_empty > p i {
+  color: var(--highlight-s);
+  font-size: 24px;
+}
+.lec_empty > div {
+  position: relative;
+  z-index: 1;
+}
+.lec_empty > div:after {
+  content: "";
+  position: absolute;
+  top: calc(100% + 5px);
+  left: 50%;
+  width: 160px;
+  height: 2px;
+  background: rgba(168, 218, 216, 0.3);
+  border-radius: 50%;
+  transform: translateX(-50%) scale(0);
+  transition: 0.45s;
+}
+.lec_empty > div:hover:after {
+  transform: translate(-50%) scale(1);
+}
+.lec_empty > div i {
+  color: var(--highlight-s);
+  font-size: 24px;
+  margin: 27px 0 54px;
+}

@@ -1,0 +1,272 @@
+header {
+  top: 0;
+}
+main {
+  margin-top: 60px;
+  padding-top: 90px;
+  min-height: 1300px;
+}
+.hidden {
+  display: none;
+}
+.select_box {
+  width: 312px;
+  margin-right: 24px;
+}
+div[class$="_box"] {
+  border: 2px solid #e0e9ef;
+  border-radius: 20px;
+  margin-bottom: 18px;
+}
+div[class$="_box"] input[type="checkbox"] {
+  margin-right: 25px;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+div[class$="_box"] input[type="checkbox"]:after {
+  content: "";
+  display: inline-block;
+  border-radius: 5px;
+  border: 2px solid #2b96dc;
+  width: 20px;
+  height: 20px;
+  position: relative;
+}
+input[type="checkbox"]:checked {
+  background: #2b96dc;
+  border-radius: 5px;
+}
+input[type="checkbox"]:checked::after {
+  background: url(../img/check.png) center center;
+  display: block;
+}
+.box_title {
+  font-weight: 600;
+  font-size: 21px;
+  padding: 22px 25px;
+  justify-content: space-between;
+}
+.check_wrap.on {
+  border-bottom: none;
+}
+.check_wrap.on .fa-solid {
+  transform: rotate(180deg);
+}
+.check_wrap {
+  border-top: #e0e9ef 2px solid;
+  /* padding: 22px 25px 30px; */
+  display: none;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+}
+.check_wrap label {
+  display: flex;
+  font-size: 18px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+.check_wrap .price_show label {
+  flex-direction: column;
+}
+.price_box .check_wrap #slider-range {
+  margin-bottom: 25px;
+}
+.check_wrap label:last-child {
+  margin-bottom: 0;
+}
+.price_box .price_show {
+  margin-top: 24px;
+  flex-direction: column;
+}
+
+.price_box .price_show p {
+  display: flex;
+  gap: 10px;
+}
+.price_box .price_show .price_space {
+  margin: 35px 0 0 2px;
+}
+.price_box .price_show input {
+  width: 114px;
+  height: 36px;
+  background: rgba(224, 233, 239, 0.3);
+  border: 1px solid #256b9a;
+  border-radius: 5px;
+  margin-top: 7px;
+}
+.price_box .price_show input[value] {
+  padding-left: 10px;
+  font-size: 18px;
+  color: #797979;
+}
+.price_box .price_show label {
+  font-size: 18px;
+  color: #797979;
+}
+.lecture_list {
+  width: 984px;
+}
+.lecture_list .course_recom {
+  width: 137px;
+  height: 146px;
+  background: #fff;
+  border: 3px solid #e0e9ef;
+  border-radius: 10px;
+  transition: 0.2s;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+}
+
+.lecture_list .course_recom:hover,
+.lecture_list .course_recom.active {
+  /* font-weight: bold; */
+  color: #2b96dc;
+  border: 4px solid #2b96dc;
+  filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.lecture_list .recommend {
+  display: flex;
+  justify-content: space-between;
+}
+.lecture_list .course_recom img {
+  /* width: 70px; */
+  height: 70px;
+}
+.lecture_wrap {
+  margin: 20px 0;
+}
+.lecture_wrap ul {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.lecture_wrap .lecture {
+  width: 310px;
+  height: 306px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  margin-bottom: 19px;
+}
+.lecture_wrap .lecture:nth-child(3n) {
+  margin-right: 0;
+}
+.lecture_wrap .lecture figure {
+  height: 198px;
+}
+.lecture_wrap .lecture figure img {
+  border-radius: 10px 10px 0px 0px;
+  height: 100%;
+  width: 100%;
+}
+.lecture_wrap .title {
+  font-size: 18px;
+  line-height: 1.3em;
+  /* margin-bottom: 30px; */
+}
+.lecture_wrap .lecture_info {
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: bold;
+}
+.lecture_wrap .lecture_info p {
+  color: #1d3557;
+}
+.lecture_wrap .info_wrap {
+  padding: 18px 15px 14px;
+  height: 108px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.fa-chevron-up {
+  transition: transform 0.3s ease-in-out;
+}
+
+.fa-chevron-up.rotate {
+  transform: rotate(180deg);
+}
+.fa-crown {
+  margin-right: 5px;
+}
+
+.ui-widget-header {
+  background: #2b96dc;
+}
+.price_show .ui-state-focus,
+.price_show .ui-state-active {
+  background: #2b96dc;
+}
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default,
+.ui-button,
+html .ui-button.ui-state-disabled:hover,
+html .ui-button.ui-state-disabled:active {
+  border: 2px solid #2b96dc;
+  border-radius: 10px;
+  background: #f6f6f6;
+  font-weight: normal;
+  color: #2b96dc;
+}
+
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus,
+.ui-button:hover,
+.ui-button:focus {
+  border: 2px solid #2b96dc;
+  background: #2b96dc;
+  font-weight: normal;
+  color: #2b96dc;
+}
+
+.select_box .price_box #slider-range .ui-state-default,
+.select_box .price_box #slider-range .ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default,
+.ui-button,
+html .ui-button.ui-state-disabled:hover,
+html .ui-button.ui-state-disabled:active {
+  border: 2px solid #2b96dc;
+  background: #fff;
+  font-weight: normal;
+  color: #2b96dc;
+  border-radius: 10px;
+}
+#slider-range .ui-slider-range.ui-corner-all.ui-widget-header {
+  width: 100%;
+}
+#slider-range .ui-slider-handle.ui-corner-all.ui-state-default {
+  left: 100%;
+}
+#slider-range,
+#slider-range > div {
+  width: 100%;
+}
+.lecture_empty {
+  font-size: 24px;
+  margin: 50px 0 0 350px;
+}
+.lecture_empty p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+  color: #808080;
+}
+.lecture_empty p i {
+  color: #2b96dc;
+  font-size: 100px;
+  margin-bottom: 20px;
+}
