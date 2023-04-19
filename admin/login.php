@@ -23,21 +23,21 @@
         
         <p><strong>구현 완료 페이지 </strong></p>
         <p><a href="http://fastcode.dothome.co.kr/admin/login.php">로그인</a> / <a href="http://fastcode.dothome.co.kr/admin/dashboard/index.php">메인페이지(대시보드)</a> / <a href="http://fastcode.dothome.co.kr/admin/category/category_list.php">과정 카테고리</a> / <a href="http://fastcode.dothome.co.kr/admin/lecture/lecture_list.php">강좌리스트</a></strong> / <a href="http://fastcode.dothome.co.kr/admin/coupon/coupon_list.php">쿠폰 관리</a> / <a href="http://fastcode.dothome.co.kr/admin/board/board_index.php">공지사항 게시판</a></p>
-        <p><strong>※ 모든 페이지는 관리자 로그인 후 접속 가능합니다. (아이디: admin / 비밀번호: 0000)</strong></p>
-        <p><strong>팀원 :</strong> 손현진(팀장), 박*지, 오*경, 유*은, 이*희, 장*홍</p>
+        <p><strong>※ 모든 페이지는 관리자 로그인 후 접속 가능합니다. (파일소유자에게 문의바랍니다.)</strong></p>
+        <p><strong>팀원 :</strong> 손*진(팀장), 박*지, 오*경, 유*은, 이*희, 장*홍</p>
         <p><strong>기획서 :</strong> <a href="https://drive.google.com/file/d/1urtLKbcvAarfpaQ5nA22xAJf1VgarxCY/view?usp=share_link" target="_blank" class="popup_proposal"> fastcode(LMS) 관리자 사이트 제작 프로젝트 기획서 보기 </a> </p>
         <p><strong>디자인 :</strong> <a href="https://www.figma.com/file/pXBDa6zDUPYQJqU8mmy6wi/fastcode-%EA%B4%80%EB%A6%AC%EC%9E%90-%EC%82%AC%EC%9D%B4%ED%8A%B8-%EC%A0%9C%EC%9E%91?node-id=1%3A7135&t=tNygfhMvw6m0Uiee-1" target="_blank" class="popup_proposal"> fastcode(LMS) 관리자 사이트 제작 프로젝트 디자인 보기 </a> </p>
-        <p><strong>github :</strong> <a href="https://github.com/HyeonJinSon/.git" target="_blank" class="popup_proposal"> fastcode(LMS) 관리자 사이트 제작 프로젝트 github 방문하기 </a> </p>
+        <p><strong>github :</strong> <a href="https://github.com/HyeonJinSon/fastcode-lms-project.git" target="_blank" class="popup_proposal"> fastcode(LMS) 관리자 사이트 제작 프로젝트 github 방문하기 </a> </p>
       </div>
       <hr />
       <div class="modal_info_part">
-        <strong>파트 분담</strong>
+        <strong>파트 업무분장</strong>
         <p>공동기획 : 전원 참여</p>
         <p>기획 : 박*지, 오*경, 이*희</p>
-        <p><strong>디자인 : 손현진, 유*은, 장*홍</strong></p>
+        <p><strong>디자인 : 손*진, 유*은, 장*홍</strong></p>
         <p>구현</p>
         <p>로그인, 메인페이지(대시보드) : 박*지(html, css, js), 장*홍(js, php) </p>
-        <p><strong>과정 카테고리, 강좌 리스트 : 오*경(html, css, js), 손현진(js, php) </strong></p>
+        <p><strong>과정 카테고리, 강좌 리스트 : 오*경(html, css, js), 손*진(js, php) </strong></p>
         <p>쿠폰관리, 공지사항 게시판 : 유*은(html, css), 이*희(js, php) </p>
       </div>
       <hr />
