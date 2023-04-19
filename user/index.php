@@ -24,7 +24,7 @@
                 <p><strong>구현 완료 페이지 </strong></p>
                 <p><strong><a href="http://fastcode.dothome.co.kr/user/index.php">메인페이지</a> / <a href="http://fastcode.dothome.co.kr/user/member/signup.php">회원가입</a> / <a href="http://fastcode.dothome.co.kr/user/member/login.php">로그인</a></strong> / <a href="http://fastcode.dothome.co.kr/user/lecture/lecture_list.php">강좌 리스트</a> / <a href="" class="no_link">강좌 상세보기</a> / <a href="" class="no_link">장바구니</a> / <a href="" class="no_link">나의 강의실</a> / <a href="" class="no_link">강의 수강</a></p>
                 
-                <p><strong>팀원 :</strong> 손*진(팀장), 박*지, 오*경, 장*홍</p>
+                <p><strong>팀원 :</strong> 손현진(팀장), 박*지, 오*경, 장*홍</p>
                 <p><strong>기획서 :</strong> <a href="https://drive.google.com/file/d/1G9Kll9mPrssslh4TUTam5TFv5RZxyTcf/view?usp=share_link" target="_blank" class="popup_proposal"> fastcode(LMS) 이용자 사이트 제작 프로젝트 기획서 보기 </a> </p>
                 <p><strong>디자인 :</strong> <a href="https://www.figma.com/file/u7JlQ74tV5ICH3E36A8nRF/fastcode-%EC%9D%B4%EC%9A%A9%EC%9E%90-%EC%82%AC%EC%9D%B4%ED%8A%B8-%EC%A0%9C%EC%9E%91?node-id=0%3A1&t=spRPcv9xsvufQrBd-1" target="_blank" class="popup_proposal"> fastcode(LMS) 이용자 사이트 제작 프로젝트 디자인 보기 </a> </p>
                 <p><strong>github </strong>: <a href="https://github.com/HyeonJinSon/fastcode-lms-project.git" target="_blank" class="popup_proposal"> fastcode(LMS) 이용자 사이트 제작 프로젝트 github 방문하기 </a> </p>
@@ -35,7 +35,7 @@
                 <p>기획 : 공동 기획</p>
                 <p>스토리보드, 디자인, 구현 : 페이지 담당자</p>
                 <br/>
-                <p><strong>메인페이지, 로그인, 회원가입 : 손*진</strong></p>
+                <p><strong>메인페이지, 로그인, 회원가입 : 손현진</strong></p>
                 <p>강좌 리스트, 강좌 상세보기 : 장*홍</p>
                 <p>장바구니 : 박*지</p>
                 <p>나의 강의실, 강의 수강 : 오*경</p>
