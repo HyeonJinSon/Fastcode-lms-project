@@ -8,6 +8,10 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta property="og:title" name="title" content="FASTCODE" />
+        <meta property="og:type" name="type" content="website" />
+        <meta property="img" content="http://fastcode.dothome.co.kr/user/img/fastcode_logo.png"/>
+        <meta property="og:description" name="description" content="fastcode 포트폴리오용 lms 창작 사이트입니다." />
         <title>fastcode</title>
         <link rel="apple-touch-icon" sizes="57x57" href="http://fastcode.dothome.co.kr/user/img/favicon/apple-icon-57x57.png">
         <link rel="apple-touch-icon" sizes="60x60" href="http://fastcode.dothome.co.kr/user/img/favicon/apple-icon-60x60.png">
